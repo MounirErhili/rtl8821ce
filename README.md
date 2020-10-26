@@ -1,7 +1,7 @@
 # Realtek RTL8821CE Driver
 
 ## Intent
-This repository hosts the code for the [Arch Linux AUR Package](https://aur.archlinux.org/packages/rtl8821ce-dkms-git/). It's targeting Linux > 4.14 and is being developed for Arch Linux and Ubuntu 18.10. No support will be provided for other Linux distributions or Linux Kernel versions outside of that range.
+This repository hosts the code for the [Arch Linux AUR Package](https://aur.archlinux.org/packages/rtl8821ce-dkms/). It's targeting Linux > 4.14 and is being developed for Arch Linux and Ubuntu 18.10. No support will be provided for other Linux distributions or Linux Kernel versions outside of that range.
 
 ## Disclaimer
 The maintainers of this repository are not Realtek employees and are maintaining this repository for their own usage. Further feature development (such as proper power saving, etc.) will not be pursued here, but will be gladly integrated if newer driver sources are provided by Realtek. Use at your own risk.
@@ -26,7 +26,7 @@ Make sure you have the `base-devel` package group installed before you proceed f
 
 #### Installing from AUR
 
-Install [rtl8821ce-dkms-git](https://aur.archlinux.org/packages/rtl8821ce-dkms-git/) from the [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository).
+Install [rtl8821ce-dkms-git](https://aur.archlinux.org/packages/rtl8821ce-dkms/) from the [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository).
 
 #### Dependencies for manual installation on Arch Linux
 ```
@@ -51,7 +51,7 @@ sudo ./dkms-install.sh
 Open a terminal window and git clone the repository to your local disk
 
 ```
-git clone https://github.com/tomaspinho/rtl8821ce.git
+git clone https://github.com/MounirErhili/rtl8821ce.git
 cd rtl8821ce
 ```
 
